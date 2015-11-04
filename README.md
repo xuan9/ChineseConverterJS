@@ -2,7 +2,7 @@
 converts text between Simplified Chinese and Traditional Chinese
 
 ###API
--toSimpliedChinese
--toTraditionalChinese
--toTraditionalChineseForHtmlText
--toSimpliedChineseForHtmlText
+- toSimpliedChinese
+- toTraditionalChinese
+- toTraditionalChineseForHtmlText
+- toSimpliedChineseForHtmlText
