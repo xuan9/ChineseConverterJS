@@ -2,8 +2,8 @@
   "name": "chinese-converter",
   "version": "0.0.1",
   "description": "Convert text between Simplified Chinese and Traditional Chinese",
-  "author": "https://github.com/xuan9/ChineseConverterJS",
-  "main": "lib/ChineseConverter.js",
+  "author": "(https://github.com/xuan9/ChineseConverterJS)",
+  "main": "ChineseConverter.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/xuan9/ChineseConverterJS.git"
