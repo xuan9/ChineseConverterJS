@@ -14,7 +14,7 @@
 }(this, function() {
   var ChineseConverter = {};
 
-  ChineseConverter.toSimpliedChinese = function(str) {
+  ChineseConverter.toSimplifiedChinese = function(str) {
     if (!str) return str;
     return str.replace(/[^\x00-\xFF]/g, function(s) {
       var b = t_2_s[s];
@@ -39,7 +39,7 @@
     });
   };
 
-  ChineseConverter.toSimpliedChineseForHtmlText = function(htmlNode) {
+  ChineseConverter.toSimplifiedChineseForHtmlText = function(htmlNode) {
     if (!htmlNode) htmlNode = document.body;
     forEachTextNode(htmlNode, function(node) {
       node.nodeValue = node.nodeValue.replace(/[^\x00-\xFF]/g, function(s) {
