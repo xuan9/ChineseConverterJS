@@ -9,5 +9,11 @@
     "url": "https://github.com/xuan9/ChineseConverterJS.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/xuan9/ChineseConverterJS"
+  "homepage": "https://github.com/xuan9/ChineseConverterJS",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
