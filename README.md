@@ -13,4 +13,5 @@ let ChineseConverter = require( 'chinese-converter');
 
 let simplifiedText = "迟日江山丽";
 let traditionalText = ChineseConverter.toTraditionalChinese(simplifiedText);
+
 console.info(simplifiedText + " -> " + traditionalText);
