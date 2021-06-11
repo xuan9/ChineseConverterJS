@@ -1,13 +1,17 @@
 # ChineseConverterJS
-converts text between Simplified Chinese and Traditional Chinese
+# 中文简繁字体转换， 支持普通文本和HTML文本
 
-###API
+converts text between Simplified Chinese and Traditional Chinese, HTML text supported.
+
+# API
+
 - toSimplifiedChinese
 - toTraditionalChinese
 - toTraditionalChineseForHtmlText
 - toSimplifiedChineseForHtmlText
 
-###Example
+# Usage example
+
 ```Javascript
 let ChineseConverter = require( 'chinese-converter');
 
